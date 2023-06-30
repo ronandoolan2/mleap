@@ -275,6 +275,7 @@ Please ensure you have sbt 1.4.9, java 11, scala 2.12.13
 
 1. Initialize the git submodules `git submodule update --init --recursive`
 2. Run `sbt compile`
+3. Run `sbt package` to get the jar files
 
 ## Thank You
 
