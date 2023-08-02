@@ -2,7 +2,22 @@
 
 This module is a Spring Boot project that provides a HTTP interface to an MLeap executor.
 
+## Build container
+
+copy mleap jar files to the target/dependencies folder
+get the rest of the dependencies using
+```
+mvn dependency:copy-dependencies
+```
+update mleap-spring-boot L339 to use the relevant jar files
+
+build the docker image
+```
+docker build . -t mleap-test
+```
+
 ## Installation
+
 
 MLeap Spring Boot is a Docker image hosted on [Docker Hub](https://hub.docker.com/r/combustml/mleap-spring-boot/).
 
