@@ -6,8 +6,10 @@ ENV PATH=/usr/local/openjdk-8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/
 ENV JAVA_HOME=/usr/local/openjdk-8
 ENV LANG=C.UTF-8
 ENV JAVA_VERSION=8u332
-COPY --from=builder /opt/docker/lib /opt/docker/lib
-COPY --from=builder /opt/docker/bin/mleap-spring-boot /opt/docker/bin/mleap-spring-boot
+COPY target/dependencies/* /opt/docker/lib
+COPY mleap-spring-boot /opt/docker/bin/mleap-spring-boot
+#COPY --from=builder /opt/docker/lib /opt/docker/lib
+#COPY --from=builder /opt/docker/bin/mleap-spring-boot /opt/docker/bin/mleap-spring-boot
 WORKDIR /opt/docker
 USER root
 ENTRYPOINT ["/opt/docker/bin/mleap-spring-boot"]
