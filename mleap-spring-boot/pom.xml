@@ -14,37 +14,37 @@
     <dependency>
       <groupId>ml.combust.mleap</groupId>
       <artifactId>mleap-spring-boot_2.12</artifactId>
-      <version>0.21.0</version>
+      <version>0.20.0</version>
     </dependency>
     <dependency>
       <groupId>ml.combust.mleap</groupId>
       <artifactId>mleap-executor_2.12</artifactId>
-      <version>0.21.0</version>
+      <version>0.20.0</version>
     </dependency>
     <dependency>
       <groupId>ml.combust.mleap</groupId>
       <artifactId>mleap-runtime_2.12</artifactId>
-      <version>0.21.0</version>
+      <version>0.20.0</version>
     </dependency>
     <dependency>
       <groupId>ml.combust.mleap</groupId>
       <artifactId>mleap-core_2.12</artifactId>
-      <version>0.21.0</version>
+      <version>0.20.0</version>
     </dependency>
     <dependency>
       <groupId>ml.combust.mleap</groupId>
       <artifactId>mleap-base_2.12</artifactId>
-      <version>0.21.0</version>
+      <version>0.20.0</version>
     </dependency>
     <dependency>
       <groupId>ml.combust.mleap</groupId>
       <artifactId>mleap-tensor_2.12</artifactId>
-      <version>0.21.0</version>
+      <version>0.20.0</version>
     </dependency>
     <dependency>
       <groupId>ml.combust.bundle</groupId>
       <artifactId>bundle-ml_2.12</artifactId>
-      <version>0.21.0</version>
+      <version>0.20.0</version>
     </dependency>
       <dependency>
          <groupId>org.scala-lang.modules</groupId>
@@ -284,17 +284,17 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-jcl</artifactId>
-      <version>5.3.14</version>
+      <version>5.3.27</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-context</artifactId>
-      <version>5.3.14</version>
+      <version>5.3.27</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>
-      <version>5.3.14</version>
+      <version>5.3.27</version>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -304,7 +304,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-expression</artifactId>
-      <version>5.3.14</version>
+      <version>5.3.27</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -359,7 +359,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-web</artifactId>
-      <version>5.2.20.RELEASE</version>
+      <version>5.3.27</version>
     </dependency>
     <dependency>
       <groupId>com.fasterxml.jackson.core</groupId>
@@ -414,7 +414,7 @@
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-webmvc</artifactId>
-      <version>5.2.20.RELEASE</version>
+      <version>5.3.27</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
@@ -524,12 +524,12 @@
     <dependency>
       <groupId>com.thesamet.scalapb</groupId>
       <artifactId>scalapb-json4s_2.12</artifactId>
-      <version>0.12.1</version>
+      <version>0.7.1</version>
     </dependency>
     <dependency>
       <groupId>org.json4s</groupId>
-      <artifactId>json4s-jackson_2.13</artifactId>
-      <version>3.6.6</version>
+      <artifactId>json4s-jackson_2.12</artifactId>
+      <version>3.5.1</version>
     </dependency>
     <dependency>
       <groupId>org.json4s</groupId>
